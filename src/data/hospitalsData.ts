@@ -1,0 +1,102 @@
+import { Hospital } from '../types';
+
+export const SAMPLE_HOSPITALS: Hospital[] = [
+  {
+    id: 'hosp-1',
+    name: 'AIIMS Apex Trauma Center',
+    facilityType: 'trauma',
+    typeLabel: 'Level-1 Apex Trauma Center',
+    address: 'Ring Road, Safdarjung Enclave, New Delhi',
+    distanceKm: 1.4,
+    travelTimeMin: 5,
+    emergencyPhone: '011-26731155',
+    open24x7: true,
+    traumaLevel: 'Level 1 Trauma Unit',
+    icuBedsAvailable: 14,
+    rating: 4.8,
+    badge: 'Government Apex Facility'
+  },
+  {
+    id: 'hosp-2',
+    name: 'Safdarjung Emergency & Burn Care',
+    facilityType: 'trauma',
+    typeLabel: 'Public Emergency & Burns Dept',
+    address: 'Sri Aurobindo Marg, Opposite AIIMS, New Delhi',
+    distanceKm: 2.1,
+    travelTimeMin: 7,
+    emergencyPhone: '011-26165060',
+    open24x7: true,
+    traumaLevel: 'Level 1 Burns & Emergency',
+    icuBedsAvailable: 8,
+    rating: 4.5,
+    badge: 'Specialized Burn Center'
+  },
+  {
+    id: 'hosp-3',
+    name: 'Max Super Speciality Hospital ER',
+    facilityType: 'hospital',
+    typeLabel: 'Super Speciality 24/7 ER',
+    address: '1, 2 Press Enclave Marg, Saket, New Delhi',
+    distanceKm: 3.8,
+    travelTimeMin: 12,
+    emergencyPhone: '011-40554055',
+    open24x7: true,
+    traumaLevel: 'Cardiac & Stroke Emergency',
+    icuBedsAvailable: 19,
+    rating: 4.9,
+    badge: 'Rapid Cath Lab'
+  },
+  {
+    id: 'hosp-4',
+    name: 'Fortis Escorts Emergency Unit',
+    facilityType: 'hospital',
+    typeLabel: 'Cardiac Emergency & ICU',
+    address: 'Okhla Road, Sukhdev Vihar Metro, New Delhi',
+    distanceKm: 5.2,
+    travelTimeMin: 16,
+    emergencyPhone: '011-47135000',
+    open24x7: true,
+    traumaLevel: 'Advanced Cardiac Care',
+    icuBedsAvailable: 11,
+    rating: 4.7
+  },
+  {
+    id: 'hosp-5',
+    name: 'Indian Red Cross Central Blood Bank',
+    facilityType: 'blood_bank',
+    typeLabel: '24/7 Blood Bank & Plasma Unit',
+    address: '1 Red Cross Road, Sansad Marg, New Delhi',
+    distanceKm: 4.1,
+    travelTimeMin: 14,
+    emergencyPhone: '011-23716441',
+    open24x7: true,
+    rating: 4.6,
+    badge: 'All Blood Groups In-Stock'
+  },
+  {
+    id: 'hosp-6',
+    name: 'Apollo 24x7 Emergency Chemist & Depot',
+    facilityType: 'pharmacy',
+    typeLabel: '24-Hour Emergency Pharmacy',
+    address: 'Connaught Place Outer Circle, New Delhi',
+    distanceKm: 2.8,
+    travelTimeMin: 9,
+    emergencyPhone: '011-23314412',
+    open24x7: true,
+    rating: 4.8,
+    badge: 'Emergency Injectables & ASV'
+  },
+  {
+    id: 'hosp-7',
+    name: 'St. Stephen’s Community Emergency',
+    facilityType: 'hospital',
+    typeLabel: 'General Hospital ER',
+    address: 'Tis Hazari, Near Civil Lines, Delhi',
+    distanceKm: 6.9,
+    travelTimeMin: 22,
+    emergencyPhone: '011-23966021',
+    open24x7: true,
+    icuBedsAvailable: 6,
+    rating: 4.4
+  }
+];
